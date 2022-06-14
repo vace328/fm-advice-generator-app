@@ -1,0 +1,13 @@
+h2 {
+    font-size: 10px;  
+    letter-spacing: 4px;  
+    line-height: 1.7;
+    text-transform: uppercase;
+    font-family: $ffamily_primary;
+    font-weight: 800;
+}
+
+a, div, p, header, footer {
+    font-family: $ffamily_primary;
+    font-size: $fsize_primary;   
+}
