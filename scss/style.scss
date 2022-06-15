@@ -68,7 +68,6 @@ p {
     // border-bottom: 1px solid #000;
 }
 .separator {
-    border-top: 1px solid #c42525;
     border-top: 1px solid $neutral_lvl_1;
     position: relative;
     margin-bottom: 48px;
@@ -118,26 +117,30 @@ button {
     font-size: 28px;
 }
 
-// @media only screen and (min-width: 580px) {
-//     body {
+@media only screen and (min-width: 580px) {
+    body {
 //         padding: 0px 0px 20px 0px;
-//         display: flex;
-//         // flex-direction: column;
-//         justify-content: center;
-//         align-items: center;
-//     }
-//     .advice-box {
-//         margin: unset;
-//         margin-top: -16px;
-//         padding: 48px 48px 48px 48px;
-//     }
-//     h2 {
-//         font-size: 13px;
-//         letter-spacing: 4.2px;
-//     }
-//     p {
-//         font-size: $fsize_primary;
-//         padding-bottom: 50px;
-//     }
-    
-// }
+        padding: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main {
+        padding-bottom: 32px;
+    }
+    .advice-box {
+        margin: unset;
+        padding: 48px 48px 48px 48px;
+    }
+    h2 {
+        font-size: 13px;
+        letter-spacing: 4.2px;
+    }
+    p {
+        font-size: $fsize_primary;
+        padding-bottom: 45px;
+    }
+    .separator {
+        margin-bottom: 30px;
+    }
+}
