@@ -21,6 +21,9 @@
         width: 100%;
         height: 100%;
         transform: skewX(-15deg);
+        -webkit-transform: skewX(-15deg);
+        -moz-transform: skewX(-15deg);
+        -o-transform: skewX(-15deg);
         background-color: lighten($primary_neon, 15%);        
         top: 0;
         left: 0;

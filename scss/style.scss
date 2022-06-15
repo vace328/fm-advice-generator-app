@@ -54,6 +54,9 @@ p {
         top: -18px;
         left: 50%;
         transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
         background-color: $neutral_lvl_2;
         padding-left: 15px;
         padding-right: 15px;
