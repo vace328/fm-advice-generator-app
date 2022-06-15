@@ -2,31 +2,12 @@
 ------------------------------------------------------------------------------*/
 @import "base/reset";
 @import "base/variables";
-// @import "base/colors";
 @import "base/typography"; 
-
-/*----------  helpers
-------------------------------------------------------------------------------*/
-// @import "helpers/mixins";   
-// @import "helpers/functions"; 
-
-/*----------  components
-------------------------------------------------------------------------------*/
-// @import "components/icons";
-// @import "components/buttons";
-
-/*----------  libs
-------------------------------------------------------------------------------*/
 
 /*----------  layout
 ------------------------------------------------------------------------------*/
 @import "layout/header"; 
-// @import "layout/footer";    
-  
-
-/*----------  pages
-------------------------------------------------------------------------------*/
-
+@import "layout/footer";    
 
 * {
     box-sizing: border-box;
@@ -42,7 +23,6 @@ body {
     max-width: 540px;
     border-radius: 12px;
     background-color: $neutral_lvl_2;
-    // background-color: yellow;
     padding: 40px 24px 24px 24px;
     position: relative;
     margin: 0 auto;
@@ -52,8 +32,9 @@ h2 {
     text-align: center;
     color: $primary_neon;
     margin-bottom: 22px;
-    // padding-left: 10px;
-    // padding-right: 10px;
+    letter-spacing: 4px;  
+    line-height: 1.7;
+    text-transform: uppercase;
 }
 p {
     width: 100%;
@@ -62,10 +43,7 @@ p {
     font-size: 24px;
     line-height: 1.38;
     padding-bottom: 31px;
-    // margin-bottom: 30px;
     letter-spacing: -0.3px;
-    
-    // border-bottom: 1px solid #000;
 }
 .separator {
     border-top: 1px solid $neutral_lvl_1;
@@ -119,7 +97,6 @@ button {
 
 @media only screen and (min-width: 580px) {
     body {
-//         padding: 0px 0px 20px 0px;
         padding: 0px 0px 0px 0px;
         display: flex;
         justify-content: center;
